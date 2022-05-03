@@ -1,0 +1,21 @@
+{
+  "name": "sissi-ga",
+  "displayName": "Sissi_Ga",
+  "description": "A dark theme that Sissi might like? Ga?",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Sissi_Ga",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Sissi_Ga-color-theme.json"
+      }
+    ]
+  }
+}
