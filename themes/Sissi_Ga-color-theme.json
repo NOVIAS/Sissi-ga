@@ -415,7 +415,7 @@
         "meta.decorator variable.other.property"
       ],
       "settings": {
-        "foreground": "#86d18a",
+        "foreground": "support.variable.property",
         "fontStyle": "italic"
       }
     },
@@ -741,13 +741,23 @@
       "scope": [
         "variable",
         "constant.other.key.perl",
-        "support.variable.property",
         "variable.other.constant.js",
         "variable.other.constant.ts",
         "variable.other.constant.tsx"
       ],
       "settings": {
         "foreground": "#f8f8f2d3"
+      }
+    },
+    {
+      "name": "Variables's properties",
+      "scope": [
+        "variable.other.property",
+        "meta.property.object",
+        "support.variable.property"
+      ],
+      "settings": {
+        "foreground": "#F1FA8C"
       }
     },
     {
