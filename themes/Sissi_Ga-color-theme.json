@@ -256,7 +256,9 @@
     "titleBar.inactiveBackground": "#34343481",
     "titleBar.inactiveForeground": "#ffffff80",
     "tree.indentGuidesStroke": "#81c6851a",
-    "ports.iconRunningProcessForeground": "#16825d"
+    "ports.iconRunningProcessForeground": "#16825d",
+    // setting
+    "settings.checkboxBorder": "#ffd552cc"
   },
   "tokenColors": [
     {
