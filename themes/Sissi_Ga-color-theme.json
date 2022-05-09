@@ -106,7 +106,7 @@
     "icon.foreground": "#fffdfdb3",
     "checkbox.background": "#3c3c3c",
     "checkbox.foreground": "#cccccc",
-    "checkbox.border": "#00000000",
+    "checkbox.border": "#86d18a",
     "minimapGutter.addedBackground": "#587c0c",
     "minimapGutter.modifiedBackground": "#0c7d9d",
     "minimapGutter.deletedBackground": "#94151b",
@@ -258,7 +258,9 @@
     "tree.indentGuidesStroke": "#81c6851a",
     "ports.iconRunningProcessForeground": "#16825d",
     // setting
-    "settings.checkboxBorder": "#ffd552cc"
+    "settings.checkboxBorder": "#86d18a",
+    "settings.checkboxBackground":"#3c3c3c",
+    "settings.checkboxForeground":"#cccccc"
   },
   "tokenColors": [
     {
