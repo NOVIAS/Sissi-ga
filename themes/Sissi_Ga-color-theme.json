@@ -209,7 +209,7 @@
     "scrollbarSlider.activeBackground": "#bfbfbf66",
     "sideBar.border": "#81c6851a",
     "sideBar.dropBackground": "#9e9e9e0d",
-    "sideBar.background": "#3333337c",
+    "sideBar.background": "#2e2e2e",
     "sideBar.foreground": "#ffffffa7",
     "sideBarSectionHeader.background": "#9e9e9e1a",
     "sideBarSectionHeader.foreground": "#fffdfdb3",
@@ -259,8 +259,9 @@
     "ports.iconRunningProcessForeground": "#16825d",
     // setting
     "settings.checkboxBorder": "#86d18a",
-    "settings.checkboxBackground":"#3c3c3c",
-    "settings.checkboxForeground":"#cccccc"
+    "settings.checkboxBackground": "#3c3c3c",
+    "settings.checkboxForeground": "#cccccc",
+    "settings.rowHoverBackground": "#86d18a"
   },
   "tokenColors": [
     {
