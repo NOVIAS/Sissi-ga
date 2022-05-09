@@ -453,7 +453,6 @@
       "scope": ["support"],
       "settings": {
         "fontStyle": "italic",
-        // "foreground": "#8BE9FD"
         "foreground": "#75beff"
       }
     },
@@ -1142,9 +1141,7 @@
     "editorGutter.commentRangeForeground": "#81c685cc",
     "debugExceptionWidget.background": "#474747",
     "debugExceptionWidget.border": "#474747",
-    "ports.iconRunningProcessForeground": "#16825d",
+    "ports.iconRunningProcessForeground": "#16825d"
     // settings
-    "settings.headerForeground": "#ff0000",
-    "settings.focusedRowBackground": "#ffffff07"
   }
 }
