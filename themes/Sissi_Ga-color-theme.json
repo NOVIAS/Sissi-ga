@@ -260,8 +260,7 @@
     // setting
     "settings.checkboxBorder": "#86d18a",
     "settings.checkboxBackground": "#3c3c3c",
-    "settings.checkboxForeground": "#cccccc",
-    "settings.rowHoverBackground": "#86d18a"
+    "settings.checkboxForeground": "#cccccc"
   },
   "tokenColors": [
     {
