@@ -509,7 +509,8 @@
       ],
       "settings": {
         // "foreground": "#6272A4"
-        "foreground": "#9e9e9ecc"
+        "foreground": "#9e9e9ecc",
+        "fontStyle": "normal"
       }
     },
     {
@@ -915,6 +916,7 @@
       "name": "Strings",
       "scope": ["string"],
       "settings": {
+        "fontStyle": "normal",
         "foreground": "#F1FA8C"
       }
     },
@@ -1099,6 +1101,20 @@
       "settings": {
         "foreground": "#F1FA8C",
         "fontStyle": "bold"
+      }
+    },
+    // Vue 相关配置
+    {
+      "name": "Vue Object's key",
+      "scope": [
+        "punctuation.separator.key-value.js",
+        "source.js",
+        "source.vue",
+        "string.unquoted.js"
+      ],
+      "settings": {
+        "foreground": "#FF79C6",
+        "fontStyle": "italic"
       }
     }
   ]
