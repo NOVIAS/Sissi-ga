@@ -1,6 +1,7 @@
 {
   "name": "Sissi_Ga",
   "type": "dark",
+  "semanticHighlighting": true,
   "colors": {
     "foreground": "#fffdfdb3",
     "focusBorder": "#86d18a",
@@ -573,7 +574,6 @@
       "scope": ["entity.name.tag"],
       "settings": {
         "fontStyle": "italic",
-        // "foreground": "#FF79C6"
         "foreground": "#86d18a"
       }
     },
@@ -680,6 +680,7 @@
         "variable.other.predefined"
       ],
       "settings": {
+        "fontStyle": "regular",
         "foreground": "#BD93F9"
       }
     },
@@ -772,7 +773,8 @@
         "entity.name.function.target.makefile",
         "entity.name.section.toml",
         "entity.name.tag.yaml",
-        "variable.other.key.toml"
+        "variable.other.key.toml",
+        "meta.property.object variable"
       ],
       "settings": {
         "foreground": "#75beff"
@@ -957,23 +959,14 @@
       "scope": [
         "variable",
         "constant.other.key.perl",
+        "support.variable.property",
         "variable.other.constant.js",
         "variable.other.constant.ts",
-        "variable.other.constant.tsx"
+        "variable.other.constant.tsx",
+        "variable.other.property.jsx"
       ],
       "settings": {
         "foreground": "#f8f8f2d3"
-      }
-    },
-    {
-      "name": "Variables's properties",
-      "scope": [
-        "variable.other.property",
-        "meta.property.object",
-        "support.variable.property"
-      ],
-      "settings": {
-        "foreground": "#F1FA8C"
       }
     },
     {
@@ -1106,12 +1099,7 @@
     // Vue 相关配置
     {
       "name": "Vue Object's key",
-      "scope": [
-        "punctuation.separator.key-value.js",
-        "source.js",
-        "source.vue",
-        "string.unquoted.js"
-      ],
+      "scope": ["property"],
       "settings": {
         "foreground": "#FF79C6",
         "fontStyle": "italic"
