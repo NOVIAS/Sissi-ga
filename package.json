@@ -23,7 +23,7 @@
     "Dark",
     "Sissi_Ga"
   ],
-  "icon": "icon.jpg",
+  "icon": "icon.svg",
   "contributes": {
     "themes": [
       {
