@@ -3,7 +3,7 @@
   "displayName": "Sissi_Ga",
   "description": "A dark theme that Sissi might like? Ga?",
   "publisher": "Novias",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "engines": {
     "vscode": "^1.50.0"
   },
