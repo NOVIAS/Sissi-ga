@@ -571,7 +571,11 @@
     },
     {
       "name": "HTML tags",
-      "scope": ["entity.name.tag"],
+      "scope": [
+        "entity.name.tag",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#86d18a"
